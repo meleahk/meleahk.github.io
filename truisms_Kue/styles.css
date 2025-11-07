@@ -1,0 +1,32 @@
+/* Make video fill the entire screen */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures video fills screen without stretching */
+  z-index: -1; /* Keeps video behind text box */
+}
+
+/* Style for the text box in the lower third */
+.text-box {
+  position: fixed;
+  bottom: 10%; /* Lower third placement */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 0, 0.4); /* Semi-transparent background */
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect for text box */
+.text-box:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
