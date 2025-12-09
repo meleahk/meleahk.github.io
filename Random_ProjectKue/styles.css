@@ -24,7 +24,7 @@ html, body {
 	cursor: pointer;
 	z-index: 2;
 	
-	background-image: url("./images/cover.jpg"); /* Your image file */
+	background-image: url("images/cover.jpg"); /* Your image file */
 	background-size: cover; /* Makes it fill the screen */
 	background-position: center; /* Keeps centered */
 	background-repeat: no-repeat;
@@ -107,7 +107,4 @@ html, body {
     display: none; /* stays hidden until the end */
     z-index: 10;   /* above everything */
     text-shadow: 0 2px 4px rgba(0,0,0,0.35);
-
 }
-
-
